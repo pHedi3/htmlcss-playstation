@@ -1,0 +1,11 @@
+.sony {
+    background-color: black;
+    padding: 10px 24px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sony svg {
+    height: 15px;
+    margin: ;
+}
