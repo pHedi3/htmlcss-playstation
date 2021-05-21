@@ -5,15 +5,15 @@ ul .btn {
     margin: 0 8px;
 }
 
-/* modificazione bottono jumbo  */
+/* modificazione bottono jumbo e new-game  */
 .jumbo .btn, .second-game .btn {
     background-color: #cd3d0f;
     border-radius: 24px;
     line-height: 30px;
 }
 
-/* modifica bottono ps5  */
-.ps5 .btn {
+/* modifica bottono ps5 e ps4  */
+.ps5 .btn, .ps4 .btn {
     border-radius: 24px;
     background-color: #2d64e6;
 }
@@ -207,12 +207,12 @@ nav li i {
 
 .new-game {
     color: white;
-    background-color: #333;
-
+    background-color: #1f1f1f;
+    padding-top: 28px;
+    padding-bottom: 28px;
 }
 
 .new-game h3 {
-    margin-top: 28px;
     margin-bottom: 28px;
 }
 
@@ -231,4 +231,46 @@ nav li i {
 
 .new-game .game-title {
     font-weight: bold;
+}
+
+.new-game .game-title i {
+    font-size: 6px;
+    color: white;
+    vertical-align: super;
+}
+
+/* leyout ps4  */
+.ps4 {
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.ps4 .title { 
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+
+.ps4 h1 {
+    margin-bottom: 36px;
+    font-size: 40px;
+}
+
+.ps4 h6 {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.ps4 button {
+    font-size: 14px;
+}
+
+.ps4 h2 {
+    margin-bottom: 28px;
+    font-size: 32px;
+}
+
+.ps4 img {
+    width: 100%;
 }
