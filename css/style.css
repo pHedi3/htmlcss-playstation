@@ -122,7 +122,7 @@ nav li i {
 }
 
 .ps5 h1 {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
     font-size: 40px;
 }
 
@@ -206,5 +206,29 @@ nav li i {
 /* leyout new-game  */
 
 .new-game {
-    height: 400px;
+    color: white;
+    background-color: #333;
+
+}
+
+.new-game h3 {
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.new-game .text {
+    margin-bottom: 24px;
+}
+
+.new-game .game {
+    margin-bottom: 24px;
+}
+
+.new-game img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.new-game .game-title {
+    font-weight: bold;
 }
