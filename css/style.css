@@ -1,17 +1,17 @@
-/* modificazioni nav  */
+/* modificazioni bottone nav  */
 nav ul .btn {
     border-radius: 24px;
     line-height: 20px;
 }
 
-/* modificazione bottono jumbo e new-game  */
+/* modificazione bottone jumbo e new-game  */
 .jumbo .btn, .second-game .btn {
     background-color: #cd3d0f;
     border-radius: 24px;
     line-height: 30px;
 }
 
-/* modifica bottono ps5 e ps4  */
+/* modifica bottone ps5 e ps4  */
 .ps5 .btn, .ps4 .btn {
     border-radius: 24px;
     background-color: #2d64e6;
@@ -97,8 +97,8 @@ section img {
     border: 3px solid transparent;
 }
 
-/* hover button dark  */
-.brd-hover-dark {
+/* hover button  */
+.brd-hover-dark, .brd-hover-red, .brd-hover-blu, .brd-hover-grey, .brd-hover-light {
     display: inline-block;
     border-radius: 24px;
     border: 2px solid transparent;
@@ -112,34 +112,14 @@ section img {
     background-color: #666;
 }
 
-/* hover buttons red  */
-.brd-hover-red {
-    display: inline-block;
-    border-radius: 24px;
-    border: 2px solid transparent;
-}
-
 .brd-hover-red:hover {
     border-color: #cd3d0f ;
-}
-
-/* hover buttons blu  */
-.brd-hover-blu {
-    display: inline-block;
-    border-radius: 24px;
-    border: 2px solid transparent;
 }
 
 .brd-hover-blu:hover {
     border-color: #2d64e6 ;
 }
 
-/* hover buttons grey */
-.brd-hover-grey {
-    display: inline-block;
-    border-radius: 24px;
-    border: 2px solid transparent;
-}
 .brd-hover-grey:hover{
     border-color:#d9dadc ;
 }
@@ -148,12 +128,6 @@ section img {
     color: #0d6efd;
 }
 
-/* hover buttons light  */
-.brd-hover-light {
-    display: inline-block;
-    border-radius: 24px;
-    border: 2px solid transparent;
-}
 .brd-hover-light:hover{
     border-color:#f5f5f5 ;
 }
