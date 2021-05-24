@@ -188,18 +188,7 @@ nav .menu::after {
 }
 
 nav .menu:hover::after{
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    content: "\f078";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    vertical-align: middle;
-    font-size: 10px;
-    margin-left: 4px;
-    color: #0776cf !important;
+    color: #0776cf;
 }
 
 nav .brd-hover-dark{
