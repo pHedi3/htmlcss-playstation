@@ -45,7 +45,7 @@ h1 {
 
 h2 {
     margin-bottom: 36px;
-    font-size: 32px;
+    font-size: 34px;
 }
 
 h3 {
@@ -79,6 +79,18 @@ section img {
 .in-pad {
     padding-top: 36px;
     padding-bottom: 36px;
+}
+
+@media screen and (min-width: 768px) {
+    .play-plus .in-pad, .play-now .in-pad {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+}
+
+.img-gep {
+    margin-bottom: 36px;
 }
 
 /* hover button dark  */
@@ -248,8 +260,8 @@ nav .brd-hover-dark{
 @media screen and (min-width: 768px) {
     .ps5 .box-img {
         padding: 0 12px;
+        height: 200px ;
     }
-    
 }
 
 .ps5 .box-img:hover {
@@ -297,7 +309,7 @@ nav .brd-hover-dark{
 
 /* leyout ps4  */
 .ps4 .box-img h6 {
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
 /* leyout play-plus */
