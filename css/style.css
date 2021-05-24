@@ -264,6 +264,14 @@ nav .brd-hover-dark{
     }
 }
 
+
+@media screen and (min-width: 1200px) {
+    .ps5 .box-img {
+        padding: 0 12px;
+        height: 250px ;
+    }
+}
+
 .ps5 .box-img:hover {
     opacity: 1;
     border-color: #0776cf ;
@@ -315,6 +323,11 @@ nav .brd-hover-dark{
 /* leyout play-plus */
 .play-plus {
     background-color: #bebcbb;
+}
+
+/* leyout sale  */
+.sale .box-img:hover {
+    cursor: pointer;
 }
 
 /* leyout play-now */
