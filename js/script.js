@@ -1,0 +1,1 @@
+document.getElementById('mainTitle').innerHTML = "Rompi il cerchio"
